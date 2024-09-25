@@ -11,7 +11,15 @@ export const Title: React.FC<Props> = ({
 }) => {
   return (
     <div className="header">
-      <h1>
+      <h1
+        style={{
+          color: "#ff3e00",
+          textTransform: "uppercase",
+          fontSize: "3em",
+          fontWeight: 400,
+          textAlign: "center",
+        }}
+      >
         Statistiques SISE {etablissement} {anneeUniversitaire}
       </h1>
       <em>
