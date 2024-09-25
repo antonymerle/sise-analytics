@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -39,4 +39,88 @@ a {
   html {
     color-scheme: dark;
   }
+} */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.4;
+  width: 100%;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+h1 {
+  color: #ff3e00;
+  text-transform: uppercase;
+  font-size: 3em;
+  font-weight: 400;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-weight: 400;
+}
+
+.table-striped {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.formulaire {
+  display: flex;
+  justify-content: center;
+}
+
+.form-item {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+.header {
+  text-align: center;
+  padding: 2em;
+}
+
+.footer {
+  font-size: xx-small;
+  text-align: center;
+  padding-top: 2em;
+}
+
+.chargement {
+  padding-left: 30%;
+  padding-right: 30%;
+  text-align: center;
+}
+
+.display-button {
+  margin: 1em;
+}
+
+.cssTableau {
+  padding: 3em;
+}
+
+.chooseDiplome {
+  margin-top: 1em;
+  text-align: center;
 }
